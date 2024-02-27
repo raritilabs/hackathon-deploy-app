@@ -1,0 +1,122 @@
+.deployContentsMainContainer {
+  padding-top: 106px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-bottom: 60px;
+}
+.deployHeading {
+  color: var(--White, #fff);
+  font-family: Sora;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  padding-bottom: 72px;
+}
+.inputBoxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 65px;
+}
+.inputBoxContainer {
+  border-radius: 12px;
+  background: var(--Gray-22, #191d24);
+  padding: 20px 20px 20px 18px;
+  width: 300px;
+}
+.walletAddressInput {
+  color: #bab7b7;
+  font-family: Sora;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+input:focus {
+  outline: none;
+}
+.input::placeholder {
+  font-family: "Metrophobic";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 112.4%;
+  color: rgba(153, 178, 198, 1);
+}
+.secondContainer {
+  border-radius: 10px;
+  background: #111318;
+  padding: 29px 20px 69px 30px;
+}
+.environment,
+.dataAvailability,
+.customizeStack {
+  color: var(--White, #fff);
+  font-family: Sora;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.buttonsContainer {
+  display: flex;
+  gap: 35px;
+  margin-top: 31px;
+}
+.button {
+  width: 242px;
+  padding: 16px 0px;
+  color: var(--White, #fff);
+  font-family: Sora;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.selected {
+  background: var(--Primary-5, #3d6eff);
+}
+.notSelected {
+  background: #3a3c41;
+}
+.dataAvailability {
+  margin-top: 40px;
+}
+.thirdContainer {
+  border-radius: 10px;
+  background: #111318;
+  padding: 40px 20px 39px 30px;
+  margin-top: 45px;
+}
+.deployButtonContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+.deployButton {
+  border: none;
+  border-radius: 12px;
+  background: var(--Primary-5, #3d6eff);
+  padding: 12px 45px;
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: "Sora";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+.deployButton:hover {
+  box-shadow: 0 0 10px 0 #3d6eff;
+}
