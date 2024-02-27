@@ -1,0 +1,8 @@
+{
+    "get-deploy-response":{
+        "organization": "",
+        "rollupName": "",
+        "chainId": "",
+        "environment_type": ""
+    }
+}
